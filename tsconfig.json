@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2020", 
+    "module": "commonjs",
+    "rootDir": "./src", 
+    "outDir": "./dist", 
+    "esModuleInterop": true, 
+    "forceConsistentCasingInFileNames": true, 
+    "strict": true, 
+    "skipLibCheck": true,
+    
+    /* TypeORM/Decorators Essentials */
+    // Habilita o uso da sintaxe @Decorator
+    "experimentalDecorators": true, 
+    
+    // Habilita a geração de metadados para decoradores (NECESSÁRIO para TypeORM)
+    "emitDecoratorMetadata": true, 
+    
+    // Define como os módulos devem ser resolvidos (import/require)
+    "moduleResolution": "node" 
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

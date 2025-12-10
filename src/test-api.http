@@ -1,0 +1,31 @@
+### Teste 1: Cadastrar um Novo Livro (POST)
+# URL: [Seu link do Codespaces]/api/livros
+
+POST https://curly-chainsaw-v6qvqg9w9gj6cpx6v-3000.app.github.dev/api/livros
+Content-Type: application/json
+
+{
+    "titulo": "A Origem das Espécies",
+    "autor": "Charles Darwin",
+    "isbn": "978-8571101918",
+    "anoPublicacao": 1859,
+    "disponivel": true
+}
+
+### Teste 2: Listar Todos os Livros (GET)
+# URL: [Seu link do Codespaces]/api/livros
+
+GET https://curly-chainsaw-v6qvqg9w9gj6cpx6v-3000.app.github.dev/api/livros
+
+### Teste 3: Cadastrar Segundo Livro (POST)
+
+POST https://curly-chainsaw-v6qvqg9w9gj6cpx6v-3000.app.github.dev/api/livros
+Content-Type: application/json
+
+{
+    "titulo": "Uma Breve História do Tempo",
+    "autor": "Stephen Hawking",
+    "isbn": "978-8571647333",
+    "anoPublicacao": 1988,
+    "disponivel": true
+}
