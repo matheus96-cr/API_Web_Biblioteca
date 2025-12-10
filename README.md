@@ -27,6 +27,6 @@ O projeto foi construído seguindo os requisitos definidos:
 
 ### 1. Clonar o Repositório
 
-```bash
-git clone [https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github](https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github)
-cd [NOME DA PASTA DO PROJETO]
+``bash
+git clone [https://github.com/matheus96-cr/API_Web_Biblioteca )
+cd ( API_Web_Biblioteca )
